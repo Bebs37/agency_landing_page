@@ -97,3 +97,42 @@ button{
     background-color: #f00;
     border-radius: 5px;
 }
+
+h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #585858;
+}
+
+h3{
+    text-transform: capitalize;
+    font-size: 24px;
+    color: #737373;
+}
+
+p.black{
+    color: #000;
+}
+
+p.grey{
+    color: #737373;
+}
+
+.top-white-block{
+    padding-top: 110px;
+}
+
+.container.hr{
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #ececec;
+}
+
+.learn-more{
+    border: solid 2px #f00;
+    background-color: #fff;
+}
+
+.learn-more a{
+    color: #f00;
+}
