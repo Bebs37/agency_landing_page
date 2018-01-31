@@ -47,8 +47,12 @@ header{
     text-align: center;
 }
 
-.nav li{
+li{
     display: inline-block;
+    list-style: none;
+}
+
+.nav li{
     padding: 30px 45px 30px 45px; 
 }
 
@@ -88,6 +92,7 @@ p{
 
 .img-fluid{
     width: 100%;
+    padding-bottom: 8px;
 }
 
 button{
@@ -96,6 +101,7 @@ button{
     font-size: 18px;
     background-color: #f00;
     border-radius: 5px;
+    border-style: none;
 }
 
 h2{
@@ -135,4 +141,49 @@ p.grey{
 
 .learn-more a{
     color: #f00;
+}
+
+li a{
+    font-size: 22px;
+    color: #4c4c4c;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+li:hover a{
+    color: #f00;
+}
+
+.ta-center{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hline{
+    
+    border-bottom-style: solid;
+    border-bottom-color: #f00;
+    width: 130px;
+    display: inline-block;
+    padding-bottom: 30px;
+    
+}
+
+.ta-center ul{
+    padding-top: 88px;
+    padding-bottom: 65px;
+}
+
+.ta-center p{
+    padding-bottom: 0px;
+}
+
+.col-sm-3{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.left{
+    text-align: left;
 }
