@@ -107,7 +107,7 @@ button{
 h2{
     text-transform: uppercase;
     font-size: 30px;
-    color: #585858;
+    color: #686868;
 }
 
 h3{
@@ -122,6 +122,10 @@ p.black{
 
 p.grey{
     color: #737373;
+}
+
+.dark{
+    color: #333333;
 }
 
 .top-white-block{
@@ -152,7 +156,7 @@ li a{
 }
 
 li:hover a{
-    color: #f00;
+    color: #fff;
 }
 
 .ta-center{
@@ -161,7 +165,6 @@ li:hover a{
 }
 
 .hline{
-    
     border-bottom-style: solid;
     border-bottom-color: #f00;
     width: 130px;
@@ -187,3 +190,74 @@ li:hover a{
 .left{
     text-align: left;
 }
+
+.small{
+    padding-left: 10px;
+}
+
+.small h2{
+    font-size: 30px;
+    color: #737373;
+}
+
+.small li{
+    font-style: italic;
+    font-size: 18px;
+    margin-right: 42px;
+}
+
+.small ul{
+    padding-bottom: 68px;
+    margin-top: -20px;
+}
+
+.social:hover .info{
+    display: block;
+    position: absolute;
+    bottom: 18px;
+    background: url(../img/Sokina_jue.png) no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+    font-size: 18px;
+    width: 90%;
+    text-align: center;
+}
+
+a li{
+    color: #777777;
+}
+
+.middle-white-block{
+    padding-bottom: 110px;
+}
+
+.form{
+    background-color: #f5f0dd;
+    padding-top: 50px;
+    padding-bottom: 140px;
+}
+
+.white{
+    color: #fff;
+    text-transform: none;
+}
+
+.form-inline{
+    display: inline-flex;
+    margin-top: 68px;
+}
+
+input{
+    margin-right: 20px;
+    font-size: 16px;
+    color: #c3c3c3;
+    padding: 33px 375px 33px 35px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.form-inline button{
+    width: 214px;
+    padding: 32px 58px;
+}
+
