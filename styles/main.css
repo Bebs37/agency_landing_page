@@ -99,7 +99,7 @@ button{
     padding: 20px 62px 20px 62px;
     text-transform: capitalize;
     font-size: 18px;
-    background-color: #f00;
+    background-color: #f00!important;
     border-radius: 5px;
     border-style: none;
 }
@@ -261,3 +261,73 @@ input{
     padding: 32px 58px;
 }
 
+.form-control{
+    padding: 0;
+    margin: 0;
+    width: 100%!important;
+    background-color: #e5e5e5;
+}
+
+.name, .mail{
+    padding: 30px 45px 30px 45px;
+}
+
+.send-message{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 45px;
+}
+
+.textarea{
+    padding: 35px 50px 200px 50px;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 45px;
+}
+
+.bottom-white-block .hline{
+    padding-top: 60px;
+}
+
+.black-block{
+    background-color: #2d2d2d;
+    height: 100%;
+    position: relative;
+}
+
+.black-block p{
+    padding: 30px 0px 0px 90px;
+}
+
+.black-block h3{
+    font-size: 18px;
+    padding: 0px 0px 15px 90px;
+}
+
+.info{
+    height: 190px;
+    position: absolute;
+    top: 50%;
+    margin-top: -95px;
+}
+
+.information-form-block{
+    margin-top: 80px;
+    margin-bottom: 110px;
+}
+
+footer{
+    background-color: #313030;
+    padding-top: 40px;
+}
+
+.share{
+    text-align: center;
+    font-size: 33px;
+    margin-left: 15px;
+}
+
+.share a{
+    margin-right: 15px;
+}
